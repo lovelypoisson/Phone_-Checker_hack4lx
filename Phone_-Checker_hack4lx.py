@@ -20,7 +20,8 @@ def check(phone_number, usr):
         return res
 
 def list_checker():
-    list_file = input("لیست شماره ها: ")
+    list_file = input(" "@BABY_DOLL_THE_QUEEN_OF_TG
+
     usr = input("یوزرنیم هدف: ")
     list = open(list_file, 'r').read().splitlines()
     for num in list:
@@ -47,3 +48,4 @@ if __name__ == '__main__':
         client.send_code_request(phone)
         client.sign_in(phone, input('کد را درج کنید: '))
     list_checker()
+
